@@ -1,0 +1,64 @@
+@font-face{
+    src: url("Fonts/Anton-Regular.ttf");
+    font-family: Ant;
+}
+@font-face{
+    src: url("Fonts/GreatVibes-Regular.ttf");
+    font-family: GV;
+}
+@font-face{
+    src: url("Fonts/SansitaSwashed-VariableFont_wght.ttf");
+    font-family: SS;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.row1 img{
+    height: 270px;
+    width: 500px;
+}
+.row2 img{
+    height: 330px;
+    width: 1000px;
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: rgb(241, 112, 112);
+}
+.container2 {
+    position: relative;
+    text-align: center;
+}
+.container3 {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#Exercising{
+    font-family: Ant,Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+#Nutrition{
+    font-family: SS,Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+#Sleep{
+    font-family: GV,Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
